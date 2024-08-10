@@ -1,0 +1,17 @@
+{
+  "name": "mailtest",
+  "version": "1.0.0",
+  "main": "mailtest.js",
+  "scripts": {
+    "start": "node mailtest.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.623.0",
+    "@aws-sdk/s3-request-presigner": "^3.623.0",
+    "nodemailer": "^6.9.14"
+  }
+}
